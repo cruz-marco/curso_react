@@ -15,6 +15,9 @@ const Events = () => {
                 { /* Caso os parêntesis sejam colocados no nome da função dentro do "onClick" acima,
                 A função será carregada assim que o código for lido e não quando o botão for clicado. */}
             </div>
+            <div>
+                <button onClick={() => alert("Olá")}>Clique em mim!</button>
+            </div>
         </div>
     );
 };
