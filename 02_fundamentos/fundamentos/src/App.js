@@ -3,6 +3,7 @@ import './App.css';
 import FirstComponent from './components/FirstComponent'; // Se o arquivo for JS, não precisa da extensão
 import TemplateExpressions from './components/TemplateExpressions';
 import Events from './components/Events';
+import Challege from './components/Challenge';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <TemplateExpressions />
       <FirstComponent /><br/>
       <Events />
+      <Challege />
     </div>
   );
 }

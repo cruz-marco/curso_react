@@ -8,6 +8,14 @@ const Events = () => {
         console.log(e);
     };
 
+    function renderSomething (x) {
+        if(x){
+            return (<h3>Renderize Isso</h3>);
+        } else {
+            return (<h3>Renderize Aquilo</h3>);
+        };
+    };
+
     return(
         <div>
             <div>
@@ -17,6 +25,10 @@ const Events = () => {
             </div>
             <div>
                 <button onClick={() => alert("Olá")}>Clique em mim!</button>
+            </div>
+            <div>
+                {renderSomething(true)} { /*desta forma, a função será executada no carregamento da página */}
+                {renderSomething(false)}
             </div>
         </div>
     );
