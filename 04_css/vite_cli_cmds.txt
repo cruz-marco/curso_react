@@ -1,0 +1,8 @@
+sudo npm create vite@latest - cria o app com uma interface amigável
+
+cd nome_da_pasta_do_projeto - vai paraa pasta do nome_da_pasta_do_projeto
+
+sudo npm install - instala todas as dependências
+
+sudo npm run dev - inicia o servidor de desenvolvimento
+PS: recomendado dar um CHMOD recursivo para rodar o "npm run dev" sem precisar do sudo.

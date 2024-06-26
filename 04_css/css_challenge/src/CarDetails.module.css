@@ -1,0 +1,15 @@
+.cardetails_div {
+    width: max-content;
+    margin: auto;
+    border: 2px;
+    border-radius: 5%;
+    background-color: black;
+    color: cornsilk;
+    padding: 5px;
+}
+
+.cardetails_p_new {
+    color: brown;
+    background-color: bisque;
+}
+

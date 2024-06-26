@@ -1,0 +1,15 @@
+/*
+As Regras de CSS se misturam como se em uma única página, 
+portanto, faz-se necessário usar regras bastante restritas 
+quando se for usar um css por componente.
+
+p {
+    background-color: black;
+    color: whitesmoke;
+}
+*/
+
+.p-mycomponent {
+    background-color: black;
+    color: aquamarine;
+}
