@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.center_table {
+  margin: auto;
+  width: 20%;
+  /*border: 3px solid green;*/
+  padding: 0px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
