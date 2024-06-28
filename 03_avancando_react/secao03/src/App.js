@@ -12,6 +12,8 @@ import ExecuteFunction from './components/ExecuteFunction';
 import Message from './components/Message';
 import ChangeMessageState from './components/ChangeMessageState';
 import UserDetails from './components/UserDetails';
+import Form from './components/Form';
+import PropTypes from 'prop-types'
 
 function App() {
 
@@ -24,6 +26,10 @@ function App() {
   ])
 
   const [message, setMesage] = useState('');
+
+  const [mess, setMess] = useState([]);
+
+  const handleFeed = (x) => setMess([...mess, x]) 
 
   const handleMessage = (msg) => setMesage(msg);
 
@@ -84,8 +90,11 @@ function App() {
           profissao={person.profissao}
         />
       ))}
-      
+       <Form func={handleFeed}/>
 
+       {mess.map((mes, i) => (
+        <p key={200+i}>{mes.nome} falou: {mes.message}</p>
+      ))}
     </div>
   );
 }
