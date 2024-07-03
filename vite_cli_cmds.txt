@@ -6,3 +6,6 @@ sudo npm install - instala todas as dependências
 
 sudo npm run dev - inicia o servidor de desenvolvimento
 PS: recomendado dar um CHMOD recursivo para rodar o "npm run dev" sem precisar do sudo.
+
+sudo npm i json-server - Instala o Json-Server
+npm run server - Roda o json-server no vite
