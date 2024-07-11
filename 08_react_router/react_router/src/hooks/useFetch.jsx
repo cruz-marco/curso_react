@@ -14,5 +14,5 @@ export function useFetch(URL) {
         receiveData()
     }, [URL])
 
-    return { data }
+    return { data } // usar essa sintaxe para poder exportar o retorno.
 }
