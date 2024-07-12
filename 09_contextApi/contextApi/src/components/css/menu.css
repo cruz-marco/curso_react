@@ -1,0 +1,16 @@
+.active {
+    color: aquamarine;
+}
+
+.menuMain{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menuLi{
+    float: left;
+    padding: 0px 3px;
+    text-transform: lowercase;
+}
