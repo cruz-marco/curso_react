@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent } from 'react'
+import { useState, ChangeEvent } from 'react'
 
 const States = () => {
     const [text, setText] = useState< string | null >('Testando o Hook')
